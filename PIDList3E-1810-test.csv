@@ -1,0 +1,4 @@
+Name,Unit,Equation,Format,Address,Length,Signed,ProgMin,ProgMax,WarnMin,WarnMax,Smoothing,Enabled,Tabs,Assign To
+Engine Speed,rpm,x,%01.0f,0xb0009c7c,2,FALSE,0,7000,-1,10000,0,TRUE,,
+Pedal Pos,%,x / 10.24,%01.1f,0xb000984c,2,FALSE,0,100,-1000,1000,0,TRUE,,
+Cruise,,x,%01.0f,0xd001a4ab,1,FALSE,0,10,-1000,1000,0,TRUE,,
